@@ -1,10 +1,11 @@
 import "./App.css"
+import * as Sentry from "@sentry/react"
 import { NavBar } from "./components/nav-bar"
 import { Hero } from "./components/hero"
 import { Highlights } from "./components/highlights"
 import { Model } from "./components/model"
-import * as Sentry from "@sentry/react"
 import { Features } from "./components/features"
+import { HowItWorks } from "./components/how-it-works"
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Highlights />
 			<Model />
 			<Features />
+			<HowItWorks />
 		</main>
 	)
 }

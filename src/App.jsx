@@ -6,6 +6,7 @@ import { Highlights } from "./components/highlights"
 import { Model } from "./components/model"
 import { Features } from "./components/features"
 import { HowItWorks } from "./components/how-it-works"
+import { Footer } from "./components/footer"
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			<Model />
 			<Features />
 			<HowItWorks />
+			<Footer />
 		</main>
 	)
 }
